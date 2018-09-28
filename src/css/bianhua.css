@@ -1,0 +1,103 @@
+.bianhua .gd{
+	width: 617px;
+	height: 235px;
+	border: 1px solid #999;
+	border-radius:10px;
+	overflow: hidden;
+}
+.bianhua ul{
+	position: relative;
+	top:0;
+}
+.bianhua ul.move{
+	/*1秒动画*/
+	transition: all 0.96s linear;
+	top:-25px;
+}
+.bianhua li{
+	line-height: 25px;
+	height:25px;
+	/*overflow: hidden;*/
+	list-style: none;
+	border-bottom: dashed 1px #999;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.bianhua li span{
+	display: block;
+	padding: 0 22px;
+	font-size: 12px;
+	float: left;
+}
+.bianhua .top{
+	height: 30px;
+	width: 617px;
+	background:#E5DFDF;
+	position: absolute;
+	left: 0;
+	top: 1px;
+	border-radius: 5px;
+}
+.bianhua .top>div{
+	float: left;
+	color: #000;
+	font-size: 12px;
+	line-height: 30px;
+	font-weight: 700;
+	text-align: center;
+	padding: 0 19px;
+	margin-left:17px;
+}
+.bianhua .img2{
+	width: 641px;
+	overflow: hidden;
+}
+.bianhua .img .f1{
+	display:block;
+	float: left;
+}
+.bianhua .img .f2{
+	display:block;
+	float:right;
+}
+.bianhua>p{
+	float: left;
+	width: 324px;
+	height: 255px;
+	font-size: 12px;
+	line-height: 22px;
+	margin-left:10px;
+	margin-top: 10px;
+}
+.bianhua p i{
+	font-weight: 700;
+}
+.bianhua .search{
+	width: 293px;
+	height: 265px;
+	text-align: center;
+	margin-top: 10px;
+	float: left;
+}
+.bianhua .search{
+	width: 293px;
+	height: 265px;
+	margin-top: 10px;
+	overflow: hidden;
+	text-align:left;
+}
+.bianhua .search>div{
+	width:293px;
+	height: 28px;
+	margin-left: 86px;
+}
+.bianhua .search input{
+	width: 126px;
+	height: 18px;
+}
+.bianhua .search>div span{
+	font-size: 12px;
+}
+.bianhua .search button{
+	margin-left: 154px;
+}

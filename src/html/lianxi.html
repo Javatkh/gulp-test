@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- inject:css-->
+	<!-- endject-->
+	<style>
+		body{
+			background:url(images/bg_02.jpg) repeat-x center top #FFFFFF;
+			height: 1348px;
+		}
+		.logo{
+			overflow: hidden;
+			position: relative;
+		}
+		.logo img{
+			float: left;
+		}
+		.logo .shouye{
+			float: right;
+			position: absolute;
+			right:48px;
+			bottom:10px;
+		}
+		.logo .shouye a{
+			font-size: 14px;
+			line-height: 14px;
+		}
+		.logo .shouye .fir{
+			padding-right:5px;
+			border-right: 1px solid #974e00;
+		}
+		.logo .shouye a:hover{
+			color: #c02719;
+		}
+		.nav{
+			height: 35px;
+			background:#c02719;
+			border-radius: 6px;
+			border: 2px solid #fc6a6a;
+			box-shadow:0px 0px 15px 0px #D9D9D9 inset;
+			overflow: hidden;
+		}
+		.nav #txt{
+			width: 279px;
+			height: 35px;
+			line-height: 35px;
+			color: #fff;
+			font-size: 13px;
+			text-align: center;
+			float: left;
+		}
+		.nav ul{
+			line-height: 35px;
+			list-style: none;
+			float: left;
+		}
+		.nav ul li{
+			margin: 5px 0;
+			line-height: 25px;
+			width: 90px;
+			float: left;
+			font-size: 13px;
+			text-align: center;
+			border-right: 1px solid #d7402f;
+			cursor: pointer;
+		}
+		.nav ul li a{
+			color:#fff;
+		}
+		.nav ul li a:hover{
+			color: yellow;
+		}
+		.banner>img{
+			margin-top:10px;
+		}
+		.news{
+			overflow: hidden;
+		}
+		.news>img{
+			float: left;
+			margin-top: 24px;
+			margin-right:10px;
+		}
+		.news .to{
+			margin-top: 31px;
+		}
+		.news_s{
+			width: 309px;
+			height: 160px;
+			margin-left:180px;
+			margin-top:10px;
+		}
+		.news_s ul{
+			width: 309px;
+			height: 160px;
+			list-style: none;
+		}
+		.news_s ul li{
+			background: url(images/icon_16.jpg) no-repeat left;
+			width: 309px;
+			height: 23px;
+			font-size: 12px;
+			line-height: 23px;
+			text-indent: 1em;
+			border-bottom: 1px dotted #999999;
+		}
+		.news_s ul li a:hover{
+			color:red;
+		}
+		
+		.lianxi{
+			width: 339px;
+			height: 223px;
+			margin-left:180px;
+			margin-top: 20px;
+			background:url(images/contact_25.jpg) no-repeat left top;
+			position: relative;
+		}
+		.lianxi .bb{
+			width: 253px;
+			height: 176px;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+		}
+		.lianxi .bb p{
+			font-size: 13px;
+			line-height: 21px;
+		}
+		.lianxi .bb i{
+			font-weight:bolder;
+			font-style: normal;
+		}
+		.bianhua{
+			background:url(images/zybg_21.jpg) no-repeat center top;
+			width: 630px;
+			height: 491px;
+			/*background: yellow;*/
+			margin-top: -410px;
+			margin-left:534px;
+			position: relative;
+			border:1px solid #999;
+			border-radius:15px;
+		}
+		.bianhua .bb{
+			position: absolute;
+			left:70px;
+			top:50px;
+		}
+		.bianhua .bb h2{
+			font-weight: 400;
+			font-size: 13px;
+			line-height: 30px;
+		}
+		.bianhua .bb i{
+			font-weight:bolder;
+			font-style: normal;
+		}
+	</style>
+	<link rel="stylesheet" href="css/base.css">
+</head>
+<body onload="startTime()">
+	<!-- 头部 -->
+	<div class="logo w">
+		<img src="images/logo_04.jpg" alt="">
+		<div class="shouye">
+			<a class="fir" href="">设为首页</a>
+			<a href="">加入收藏</a>
+		</div>
+	</div>
+	<!-- nav -->
+	<div class="nav w">
+		<div id="txt"></div>
+		<ul>
+			<li><a href="index.html">网站首页</a></li>
+			<li><a href="Introduction.html">公司简介</a></li>
+			<li><a href="news.html">企业新闻</a></li>
+			<li><a href="resource.html">现货资源</a></li>
+			<li><a href="product.html">产品展示</a></li>
+			<li><a href="lianxi.html">联系我们</a></li>
+			<li><a href="rongyu.html">荣誉资质</a></li>
+		</ul>
+	</div>
+	<!-- banner -->
+	<div class="banner w">
+		<img src="images/banner.gif" alt="">
+	</div>
+	<!-- 新闻栏目 -->
+	<div class="news w">
+		<img src="images/news_16.jpg" alt="">
+		<img class="to" src="images/111.png" alt="">
+	</div>
+	
+	<!-- 新闻 -->
+	<div class="news_s">
+		<ul>
+			<li>
+				<a>推动绿色转型 河南新乡循环经济推...</a>
+				<span>03-02 09:27</span>
+			</li>
+			<li>
+				<a>河南10月底前发放不动产权证 减少...</a>
+				<span>03-02 09:26</span>
+			</li>
+			<li>
+				<a>郑州经济转型加速 服务业在经济中...</a>
+				<span>03-02 09:24</span>
+			</li>
+			<li>
+				<a>加快棚户区改造 河南鼓励棚户区改...</a>
+				<span>03-02 09:22</span>
+			</li>
+			<li>
+				<a>降准首日人民币结束“五连跌” 资...</a>
+				<span>03-02 09:21</span>
+			</li>
+			<li>
+				<a>国家信息中心报告：全年经济增速将...</a>
+				<span>07-20 09:51</span>
+			</li>
+			<li>
+				<a>金融机构外占三个月来首降 未来仍...</a>
+				<span>07-20 09:48</span>
+			</li>
+		</ul>
+	</div>
+	<!-- 联系我们 -->
+	<div class="lianxi">
+		<div class="bb">
+			<p><i>郑州瑞航钢铁有限公司</i></p>
+			<p>电话：0371-53399587</p>
+			<p>传真：0371-86589232</p>
+			<p>手机：13674963934　<i>卢经理</i></p>
+			<p>13523086876   <i>同微信</i></p>
+			<p>地址：<i>郑州市南四环豫中钢材市场南排10号库</i></p>
+		</div>
+	</div>
+	<!-- 右边变化区域 -->
+	<div class="bianhua">
+		<div class="bb">
+			<h2><i>郑州瑞航钢铁有限公司</i></h2>
+			<h2>电话：0371-53399587</h2>
+			<h2>传真：0371-86589232</h2>
+			<h2>手机：13674963934　<i>卢经理</i></h2>
+			<h2>13523086876   <i>同微信</i></h2>
+			<h2>地址：<i>郑州市南四环豫中钢材市场南排10号库</i></h2>
+		</div>
+	</div>
+	
+	<div class="lunbo w">
+		<ul>
+			<li>
+				<img src="images/lunbo/1437357407146_w150.jpg" alt="">
+			</li>
+			<li>
+				<img src="images/lunbo/1437357431599_w150.jpg" alt="">
+			</li>
+			<li>
+				<img src="images/lunbo/1437357439488_w150.jpg" alt="">
+			</li>
+			<li>
+				<img src="images/lunbo/1437357450708_w150.jpg" alt="">
+			</li>
+			<li>
+				<img src="images/lunbo/1437357460301_w150.jpg" alt="">
+			</li>
+			<li>
+				<img src="images/lunbo/1456881346180_w150.jpg" alt="">
+			</li>
+			<li>
+				<img src="images/lunbo/1456881397815_w150.jpg" alt="">
+			</li>
+			<li>
+				<img src="images/lunbo/1456881434484_w150.jpg" alt="">
+			</li>
+			<li>
+				<img src="images/lunbo/1456881489038_w150.jpg" alt="">
+			</li>
+			<li>
+				<img src="images/lunbo/1456892201819_w150.jpg" alt="">
+			</li>
+		</ul>
+	</div>
+	<footer class="w">
+		<div class="left">
+			<p>郑州瑞航钢铁有限公司</p>
+		</div>
+		<div class="right">
+			<p>郑州瑞航钢铁有限公司　版权所有[<a>管理员入口</a>]</p>
+			<p>技术支持：<a>我的钢铁网</a></p>
+		</div>
+	</footer>
+	<!-- 时间 -->
+	<script type="text/javascript">
+		function startTime()
+		{
+			var today=new Date()
+			var year = today.getFullYear();
+			var month = today.getMonth();
+			var day = today.getDate();
+			var week = today.getDay();
+			var h=today.getHours()
+			var m=today.getMinutes()
+			var s=today.getSeconds()
+			
+			year=checkTime(year);
+			month=checkTime(month);
+			day=checkTime(day);
+			// week=checkTime(week);
+			m=checkTime(m)
+			s=checkTime(s) 
+			document.getElementById('txt').innerHTML=year+"年"+month+"月"+day+"日"+"     "+"星期"+week+"     "+h+":"+m+":"+s;
+			t=setTimeout('startTime()',500)
+		}
+
+		function checkTime(i){
+			if (i<10){
+				i="0" + i;
+			}
+			return i;
+		}
+	</script>
+	
+	<!-- 轮播 -->
+	<script>
+		// 遍历li
+		var uls = document.querySelector(".lunbo>ul");
+		// 定时器 1秒  往上走35px  走的过程持续1秒
+		setInterval(function(){
+			uls.className="move";
+			setTimeout(function(){
+				uls.appendChild(uls.children[0]);
+				uls.className = "";
+			},1980)
+		},2000);
+	</script>
+</body>
+</html>

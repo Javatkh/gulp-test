@@ -1,0 +1,43 @@
+footer{
+	height: 80px;
+	background: #c12622;
+	position: absolute;
+	top:1232px;
+	left:160px;
+	line-height: 80px;
+	overflow: hidden;
+	border-radius: 10px;
+}
+footer .left{
+	float: left;
+	width: 260px;
+	height: 80px;
+	text-align: center;
+}
+footer .left p{
+	font-size:19px;
+	font-weight:700;
+	line-height: 80px;
+	color: #fff;
+}
+footer .right{
+	float: right;
+	width: 360px;
+	height: 80px;
+	padding-right: 30px;
+	padding-top: 30px;
+	line-height: 80px;
+}
+footer .right p{
+	display: block;
+	float: right;
+	font-size:12px;
+	line-height: 19px;
+	color: #fff;
+}
+footer .right a{
+	color: #fff;
+}
+footer .right a:hover{
+	color:yellow;
+}

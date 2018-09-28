@@ -1,0 +1,31 @@
+.lunbo{
+	height: 159px;
+	border:5px solid #ccc;
+	position: absolute;
+	left:160px;
+	top:1043px;
+	overflow: hidden;
+}
+.lunbo>ul{
+	list-style: none;
+	width: 10000px;
+	position: relative;
+	top:0;
+	left: 0;
+}
+.lunbo>ul li{
+	float: left;
+	margin:5px;
+	border: 1px solid #333;
+	box-sizing: border-box;
+}
+.lunbo>ul li img{
+	width: 152px;
+	height: 148px;
+}
+
+.lunbo>ul.move{
+	/*1秒动画*/
+	transition: all 1.96s linear;
+	left:-162px;
+}

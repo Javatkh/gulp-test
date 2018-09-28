@@ -1,0 +1,69 @@
+/* 全局css */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dt,dd,li,border,filedset,ol{
+	margin: 0;
+	padding: 0;
+	line-height: 1px;
+	font-family: Arial,"微软雅黑"；
+	color:#333;
+	/*overflow: hidden;*/
+}
+
+
+a{
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover{
+	color:red;
+}
+em{
+	font-style: normal;
+}
+p{
+	word-wrap: break-word;/*换行*/
+}
+
+input,img{
+	/*vertical-align: middle;*/
+	/*border: 0 none;*/
+	/*outline-style:none;*/
+	padding: 0;
+	margin: 0; 
+}
+
+/*清除浮动*/
+.clearfix:after{
+	content:"";
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear:both;
+	visibility: middle;
+}
+
+.clearfix{
+	zoom:1;
+} 
+
+/*版心*/
+.w{
+	width:1004px;
+	margin: 0 auto;
+}
+
+/*向下箭头*/
+.jiantou{
+	display: block;
+	width:0;
+	border:5px solid #ababab;
+	margin-left: 60px;
+	margin-top:-12px;
+	border-left-color:transparent;
+	border-bottom-color:transparent;
+	border-right-color:transparent;
+}
+/*图片 按钮 输入框 文本等垂直居中*/
+button, img, input, object, select, textarea {
+    /*vertical-align: middle;*/
+}

@@ -1,0 +1,75 @@
+.ziyuan{
+	height: 603px;
+	margin-top: 18px;
+	width: 1004px;
+	margin-left: 160px;
+	overflow: hidden;
+}
+.ziyuan .one{
+	width:1002px;
+	height: 30px;
+	background: #f3f3f3;
+	border:1px solid #cccccc;
+	padding-left: 243px;
+	line-height: 30px;
+}
+.ziyuan .one span{
+	font-size: 11px;
+	visibility: center;
+}
+.ziyuan .one input{
+	width: 90px;
+}
+.ziyuan .two{
+	width:1002px;
+	height: 30px;
+	background: #f3f3f3;
+	border:1px solid #cccccc;
+	margin-top:-1px;
+	padding-left: 243px;
+	line-height: 30px;
+}
+.ziyuan .two span{
+	font-size: 11px;
+	visibility: center;
+}
+.ziyuan .two input{
+	width: 90px;
+}
+.ziyuan .two button{
+	font-size: 11px;
+	visibility: center;
+	width: 60px;
+}
+.ziyuan .san{
+	width: 1002px;
+	height: 30px;
+	line-height: 30px;
+	border:1px solid #cccccc;
+	margin-top: 5px;
+}
+.ziyuan .san p3{
+	font-size:9px;
+	visibility:middle;
+	float: right;
+}
+.ziyuan .four table{
+	border-collapse: collapse;
+	width: 1004px;
+	text-align: center;
+	font-size: 11px;
+	border:1px solid #ccc;
+}
+.ziyuan .four table tr{
+	width: 1002px;
+	height: 25px;
+}
+.ziyuan .four table tr td{
+	cursor:pointer;
+}
+.ziyuan .four table tr:hover{
+	background:#FEFBC4;
+}
+.ziyuan .four table tr .first:hover{
+	color:red;
+}
