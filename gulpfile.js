@@ -10,6 +10,9 @@ var base64 = require("gulp-base64");//加载图片转码包
 var inject = require("gulp-inject");//加载注入包
 var watch = require("gulp-watch");//加载监听包
 var connect = require("gulp-connect")//加载服务器包
+
+//我是注释，为了测试one
+
 // css文件
 gulp.task("css",function(){
 	gulp.src(["./src/css/base.css","./src/css/lunbo.css"])
