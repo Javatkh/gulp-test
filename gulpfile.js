@@ -12,7 +12,7 @@ var watch = require("gulp-watch");//加载监听包
 var connect = require("gulp-connect")//加载服务器包
 
 //我是注释，为了测试one
-//我是注释2，为了测试克隆是否成功
+//我是注释2，为了测试克隆是否成功，哈哈哈
 
 // css文件
 gulp.task("css",function(){
